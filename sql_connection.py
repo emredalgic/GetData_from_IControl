@@ -11,7 +11,7 @@ class SqlConnection :
     Class SqlConnection mssql
     """
 
-    def __init__(self, servername='Emeatristsql', databasename='SSIVRDATA') :
+    def __init__(self, servername='Emeatristsql', databasename='database') :
         # Connection string / windows authentication
         self.databasename = databasename
         self.servername = servername
